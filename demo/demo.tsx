@@ -27,7 +27,7 @@ render(
       <ServicePanel {...props} onClick={onClick} />
     </Panel>
     <Panel header="包含 store 功能" key="1">
-      <ServicePanelWithStore onClick={onClickWithStore} />
+      <ServicePanelWithStore cWidth={300} onClick={onClickWithStore} />
     </Panel>
   </Collapse>,
   document.getElementById('example') as HTMLElement
